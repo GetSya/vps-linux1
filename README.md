@@ -11,4 +11,4 @@
 
 ### Warning : I just Remake/Copy From Ppl 
 
-[CREATOR👈](https://github.com/C4B1CA90E0B98F)
+👉 [CREDITs](https://github.com/C4B1CA90E0B98F)
