@@ -1,8 +1,8 @@
-_ERR=$(grep "command failed" < .ngrok.log)
+_login$(grep "command failed" < .ngrok.log)
 
-if [[ -z "$_ERR" ]]; then
-    echo $(grep -o -E "tcp://(.+)" < .ngrok.log | sed "s/tcp:\/\//ssh $1@/" | sed "s/:/ -p /")
+if [[ -z "$_login" ]]; then
+    echo $(grep -o -E "tcp://(.+)" < .ngrok.log")
 else
-    echo "$_ERR"
+    echo "$_login"
     exit 4
 fi
