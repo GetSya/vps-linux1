@@ -1,4 +1,4 @@
-_login$(grep "command failed" < .ngrok.log)
+_login=$(grep "command failed" < .ngrok.log)
 
 if [[ -z "$_login" ]]; then
     echo $(grep -o -E "tcp://(.+)" < .ngrok.log")
